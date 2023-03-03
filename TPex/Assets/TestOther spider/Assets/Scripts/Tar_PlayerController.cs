@@ -5,6 +5,7 @@ using UnityEngine;
 public class Tar_PlayerController : MonoBehaviour
 {
     private float distance;
+    private Vector3 targetPos;
 
     [Header("Grounding")]
     public CapsuleCollider capsuleCollider;
@@ -40,7 +41,9 @@ public class Tar_PlayerController : MonoBehaviour
     void Update()
     {
         distance = Vector3.Distance(transform.position, target.transform.position);
-        Debug.Log(distance);
+
+        targetPos = target.transform.position - transform.position;
+        targetPos.y = 0;
 
         if (breathing)
         {
@@ -51,28 +54,29 @@ public class Tar_PlayerController : MonoBehaviour
             body.transform.position = bodyCentroid + amplitude * (Mathf.Sin(t) + 1f) * bodyY;
         }
 
-        // Handle keyboard control
+        //// Handle keyboard control
  
        
-            float ws = Input.GetAxis("Vertical") * MoveSpeed * Time.deltaTime;
-            transform.Translate(0, 0, ws);
+        //    float ws = Input.GetAxis("Vertical") * MoveSpeed * Time.deltaTime;
+        //    transform.Translate(0, 0, ws);
 
-            float ad = Input.GetAxis("Horizontal") * MoveSpeed * Time.deltaTime;
-            transform.Translate(ad, 0, 0);
+        //    float ad = Input.GetAxis("Horizontal") * MoveSpeed * Time.deltaTime;
+        //    transform.Translate(ad, 0, 0);
 
-            if (Input.GetKey(KeyCode.Q))
-            {
-                transform.Rotate(0, -RotSpeed * Time.deltaTime, 0);
-            }
-            if (Input.GetKey(KeyCode.E))
-            {
-                transform.Rotate(0, RotSpeed * Time.deltaTime, 0);
-            }
+        //    if (Input.GetKey(KeyCode.Q))
+        //    {
+        //        transform.Rotate(0, -RotSpeed * Time.deltaTime, 0);
+        //    }
+        //    if (Input.GetKey(KeyCode.E))
+        //    {
+        //        transform.Rotate(0, RotSpeed * Time.deltaTime, 0);
+        //    }
 
-            if (distance >= 2)
+            if (distance >= 1.8f)
         { 
-        transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(target.transform.position - transform.position), RotSpeed * Time.deltaTime);
-        transform.position += transform.forward * Time.deltaTime * MoveSpeed;
+            transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(targetPos), RotSpeed * Time.deltaTime);
+            
+            transform.position += transform.forward * Time.deltaTime * MoveSpeed;
         }
         
 

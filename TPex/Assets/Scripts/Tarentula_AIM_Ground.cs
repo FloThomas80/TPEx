@@ -17,9 +17,9 @@ public class Tarentula_AIM_Ground : MonoBehaviour
     void Update()
     {
         RaycastHit hit;
-        if(Physics.Raycast(RaycastOrigin.transform.position + new Vector3 (0f,0.01f,0f), -transform.up, out hit, Mathf.Infinity, LayerMask))
+        if(Physics.Raycast(RaycastOrigin.transform.position + new Vector3 (0f,0.02f,0f), -transform.up, out hit, Mathf.Infinity, LayerMask))
         {
-            transform.position = hit.point + new Vector3(0f, 0.01f, 0f);
+            transform.position = hit.point + new Vector3(0f, 0.02f, 0f);
         }
     }
 }

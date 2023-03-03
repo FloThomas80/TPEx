@@ -30,7 +30,7 @@ public class Tarentula_Controller : MonoBehaviour
     {
         //transform.position = OriginalPosition; 
         float distanceToMoveCube = Vector3.Distance(transform.position, MovCube.transform.position);
-        Debug.Log("distance" + distanceToMoveCube);
+        //Debug.Log("distance" + distanceToMoveCube);
 
             if ((distanceToMoveCube >= LegMoveDistance && OppositeLeg.IsItMoving() == false) || Moving)
             {
