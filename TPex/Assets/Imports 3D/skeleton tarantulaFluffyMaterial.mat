@@ -8,16 +8,18 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: skeleton tarantulaFluffyMaterial
-  m_Shader: {fileID: 4800000, guid: 9ed86f38f1be31048a8805b6a4399e1f, type: 3}
-  m_ValidKeywords: []
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_ValidKeywords:
+  - _ALPHABLEND_ON
   m_InvalidKeywords:
   - _DISABLE_SSR_TRANSPARENT
   - _DOUBLESIDED_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
+  m_CustomRenderQueue: 3000
+  stringTagMap:
+    RenderType: Transparent
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -86,12 +88,12 @@ Material:
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _Distortion: 0.767
-    - _DstBlend: 0
+    - _DstBlend: 10
     - _GlossMapScale: 1
-    - _Glossiness: 0.5
+    - _Glossiness: 0
     - _GlossyReflections: 1
     - _Metallic: 0
-    - _Mode: 0
+    - _Mode: 2
     - _NormalStrength: 1
     - _OcclusionStrength: 1
     - _Parallax: 0.02
@@ -104,12 +106,12 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecIntensity: 0.146
     - _SpecularHighlights: 1
-    - _SrcBlend: 1
+    - _SrcBlend: 5
     - _UVSec: 0
-    - _ZWrite: 1
+    - _ZWrite: 0
     - _maxColorOverride: 1
     m_Colors:
-    - _Color: {r: 0.2924528, g: 0.1287528, b: 0.1287528, a: 1}
+    - _Color: {r: 0.1509434, g: 0.011961541, b: 0.011961541, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _MainColor: {r: 1, g: 1, b: 1, a: 0}
     - _MainColorB: {r: 1, g: 1, b: 1, a: 1}

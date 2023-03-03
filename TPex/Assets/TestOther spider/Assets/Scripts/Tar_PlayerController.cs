@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Tar_PlayerController : MonoBehaviour
 {
-
+    private float distance;
 
     [Header("Grounding")]
     public CapsuleCollider capsuleCollider;
@@ -14,6 +14,9 @@ public class Tar_PlayerController : MonoBehaviour
     public float bodyOffsetHeight;
 
     [Header("Movement")]
+    public GameObject target;
+    public GameObject spiderT;
+
     public float MoveSpeed = 1.3f;
     public float RotSpeed = 10.0f;
 
@@ -36,6 +39,9 @@ public class Tar_PlayerController : MonoBehaviour
 
     void Update()
     {
+        distance = Vector3.Distance(transform.position, target.transform.position);
+        Debug.Log(distance);
+
         if (breathing)
         {
             float t = (Time.time * 2 * Mathf.PI / breathePeriod) % (2 * Mathf.PI);
@@ -44,8 +50,9 @@ public class Tar_PlayerController : MonoBehaviour
 
             body.transform.position = bodyCentroid + amplitude * (Mathf.Sin(t) + 1f) * bodyY;
         }
+
         // Handle keyboard control
-        // This loop competes with AdjustBodyTransform() in LegController script to properly postion the body transform
+ 
        
             float ws = Input.GetAxis("Vertical") * MoveSpeed * Time.deltaTime;
             transform.Translate(0, 0, ws);
@@ -62,9 +69,13 @@ public class Tar_PlayerController : MonoBehaviour
                 transform.Rotate(0, RotSpeed * Time.deltaTime, 0);
             }
 
+            if (distance >= 2)
+        { 
+        transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(target.transform.position - transform.position), RotSpeed * Time.deltaTime);
+        transform.position += transform.forward * Time.deltaTime * MoveSpeed;
+        }
+        
 
-            
-     
     }
 
     public float getColliderRadius()
