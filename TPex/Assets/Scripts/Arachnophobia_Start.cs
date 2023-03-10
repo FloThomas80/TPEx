@@ -10,8 +10,11 @@ public class Arachnophobia_Start : MonoBehaviour
     [SerializeField]
     private GameObject[] TableObjs;
 
+    [SerializeField]
+    private GameObject[] Toactiv;
+
     private Animation AnimTable;
-    private float TimeT = 1f;
+    private float TimeT = 0.3f;
 
     // Start is called before the first frame update
     void Start()
@@ -19,6 +22,8 @@ public class Arachnophobia_Start : MonoBehaviour
         for (int i = 0; i < TableObjs.Length; i++)
         {
             StartCoroutine(AnimGo(i));
+            
+            TimeT++; ///<------ beurk
             //StartCoroutine(TimeToGo(TimeT));
         }
     }
@@ -31,11 +36,22 @@ public class Arachnophobia_Start : MonoBehaviour
     {
 
             //TimeToGo += 1000f;
-            //AnimTable = TableObjs[i].GetComponent<Animation>();
-            TableObjs[ObjIndx].SetActive(true);
-        //new WaitForSeconds(2);
-        //TableObjs[i].GetComponent<Animator>().SetTrigger("Table");
+            //AnimTable = TableObjs[ObjIndx].GetComponent<Animation>();
+            
+            //
+            //TableObjs[i].GetComponent<Animator>().SetTrigger("Table");
+            
+        yield return new WaitForSeconds(TimeT);
+        TableObjs[ObjIndx].SetActive(true);
+
+        if (ObjIndx==TableObjs.Length-1)
+        {
+            for (int i = 0; i < Toactiv.Length; i++)
+            {
+                Toactiv[i].SetActive(true);
+            }
+
+        }
         //AnimTable.Play();
-        yield return null;
     }
 }
