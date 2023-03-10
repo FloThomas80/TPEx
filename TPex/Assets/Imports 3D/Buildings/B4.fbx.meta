@@ -1,0 +1,251 @@
+fileFormatVersion: 2
+guid: 69bdcd7521825bf4b8110cad6227cd7b
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_MIM_ConcreteOld
+    second: {fileID: 2100000, guid: 81ed241cf9afe7d44881edc74453e1b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_MIM_ConcretePolishBlocksGray
+    second: {fileID: 2100000, guid: e17cd3d2ea7716c47a41ad965d2f5403, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_MIM_ConcretePolishTiles
+    second: {fileID: 2100000, guid: 829a31aebcdc586439fbe842bcad2959, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_MIM_ConcretePolishTilesBright
+    second: {fileID: 2100000, guid: 7b2cb6f2be407ba4b9d56c8c30c04a27, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_MIM_DoorsAtlasA
+    second: {fileID: 2100000, guid: b2b322c514e489b4e8f7b9e9bf2753ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_MIM_FlagsUECSGR
+    second: {fileID: 2100000, guid: 75916c3abde3323419998f96c37c19ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_MIM_GalvanizedSteelDirt
+    second: {fileID: 2100000, guid: 9e060b14eed485247b5880dc9ca5688c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_MIM_GlassBlack
+    second: {fileID: 2100000, guid: 5bea1a7fff126d644b5357f1fdee7253, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_MIM_GlassBlue
+    second: {fileID: 2100000, guid: 5bea1a7fff126d644b5357f1fdee7253, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_MIM_GlassCyan
+    second: {fileID: 2100000, guid: 5bea1a7fff126d644b5357f1fdee7253, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_MIM_MarbleBlackSpeckled
+    second: {fileID: 2100000, guid: 501430783b080a242a6e38dd25b99360, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_MIM_MetalBlack
+    second: {fileID: 2100000, guid: 5ff8da8906992d547ac0936933d141cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_MIM_MetalBronze
+    second: {fileID: 2100000, guid: 91a4073697daffb4aa8cc6dbb25046c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_MIM_MetalDBrown
+    second: {fileID: 2100000, guid: 54e94e14923f4da4f82d7635ea2ca51a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_MIM_MetalDarkGreyWorn
+    second: {fileID: 2100000, guid: c0ba02a6d14754745bda552fbac6b011, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_MIM_MetalPaintedWhite
+    second: {fileID: 2100000, guid: 773cf3823df5d284f8efcfd5559888d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_MIM_MetalPolished
+    second: {fileID: 2100000, guid: c078c0d9f9f99ba4988d29d3ba8f6be5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_MIM_MetalRoughGray
+    second: {fileID: 2100000, guid: 7c5729281d3cda94b8c3b086d4474c5a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_MIM_PalimananStoneGrayC
+    second: {fileID: 2100000, guid: 74c1867bc9a2dcd4491f7aa0a64749b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_MIM_PalimananStoneGrayT
+    second: {fileID: 2100000, guid: dbd723ae846d40740933c99257846196, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_MIM_PalimananStoneLBeige
+    second: {fileID: 2100000, guid: 632e6ce3ab7cebe43af2a1c16adb737c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_MIM_PalimananStoneWhite
+    second: {fileID: 2100000, guid: 0e618105fc2717543a8002c7f3e2c6c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_MIM_PalimananStoneWhiteBrick
+    second: {fileID: 2100000, guid: c6de43c1573f17c4585cc0305f4e832e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_MIM_PalimananStoneWhiteBrickB
+    second: {fileID: 2100000, guid: a0488f662df2b0d43bfd5798ec7798f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_MIM_RoofCopperBrownB
+    second: {fileID: 2100000, guid: 9ff9729f1b8fe634eae1ca5ecf926b8c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_MIM_Rubber
+    second: {fileID: 2100000, guid: ddb98d38efdbc0a41b1ce27644d2d1ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_MIM_Tar
+    second: {fileID: 2100000, guid: 29063a1506339124b8fcc5cfbb74bc60, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_MIM_TarRed
+    second: {fileID: 2100000, guid: dc9f8454847928e458e29a6e86237da8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_MIM_WoodDBrownVarn
+    second: {fileID: 2100000, guid: aacd3090254d2004c85717e911a00b6c, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

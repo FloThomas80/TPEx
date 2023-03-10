@@ -812,6 +812,11 @@ PrefabInstance:
       propertyPath: m_CameraYOffset
       value: 1.6
       objectReference: {fileID: 0}
+    - target: {fileID: 7518377906091129637, guid: 4e660da2419d1614198b2c073ddf863d,
+        type: 3}
+      propertyPath: m_RequestedTrackingOriginMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8059801596075752103, guid: 4e660da2419d1614198b2c073ddf863d,
         type: 3}
       propertyPath: m_LocalRotation.w

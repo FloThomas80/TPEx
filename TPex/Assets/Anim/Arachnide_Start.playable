@@ -16,9 +16,9 @@ MonoBehaviour:
   m_Position: {x: 0, y: 0, z: 0}
   m_EulerAngles: {x: 0, y: 0, z: 0}
   m_UseTrackMatchFields: 1
-  m_MatchTargetFields: 63
+  m_MatchTargetFields: 15
   m_RemoveStartOffset: 0
-  m_ApplyFootIK: 1
+  m_ApplyFootIK: 0
   m_Loop: 0
   m_Version: 1
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
@@ -47,7 +47,7 @@ MonoBehaviour:
     m_Start: 4
     m_ClipIn: 0
     m_Asset: {fileID: 9062221145018218870}
-    m_Duration: 5
+    m_Duration: 9.616666666666667
     m_TimeScale: 1
     m_ParentTrack: {fileID: -7769551169326079386}
     m_EaseInDuration: 0
@@ -148,9 +148,9 @@ MonoBehaviour:
   m_Position: {x: 0, y: 0, z: 0}
   m_EulerAngles: {x: 0, y: 0, z: 0}
   m_UseTrackMatchFields: 1
-  m_MatchTargetFields: 63
+  m_MatchTargetFields: 15
   m_RemoveStartOffset: 0
-  m_ApplyFootIK: 1
+  m_ApplyFootIK: 0
   m_Loop: 0
   m_Version: 1
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
@@ -170,9 +170,9 @@ MonoBehaviour:
   m_Position: {x: 0, y: 0, z: 0}
   m_EulerAngles: {x: 0, y: 0, z: 0}
   m_UseTrackMatchFields: 1
-  m_MatchTargetFields: 63
+  m_MatchTargetFields: 15
   m_RemoveStartOffset: 0
-  m_ApplyFootIK: 1
+  m_ApplyFootIK: 0
   m_Loop: 0
   m_Version: 1
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
@@ -201,7 +201,7 @@ MonoBehaviour:
     m_Start: 5.5
     m_ClipIn: 0
     m_Asset: {fileID: 6789865734709091110}
-    m_Duration: 5
+    m_Duration: 8.116666666666667
     m_TimeScale: 1
     m_ParentTrack: {fileID: -6167192172130550016}
     m_EaseInDuration: 0
@@ -311,7 +311,7 @@ MonoBehaviour:
     m_Start: 1
     m_ClipIn: 0
     m_Asset: {fileID: 325634572291198699}
-    m_Duration: 5
+    m_Duration: 12.616666666666667
     m_TimeScale: 1
     m_ParentTrack: {fileID: -3553807351557857799}
     m_EaseInDuration: 0
@@ -412,9 +412,9 @@ MonoBehaviour:
   m_Position: {x: 0, y: 0, z: 0}
   m_EulerAngles: {x: 0, y: 0, z: 0}
   m_UseTrackMatchFields: 1
-  m_MatchTargetFields: 63
+  m_MatchTargetFields: 15
   m_RemoveStartOffset: 0
-  m_ApplyFootIK: 1
+  m_ApplyFootIK: 0
   m_Loop: 0
   m_Version: 1
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
@@ -452,9 +452,9 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 5.433333333333334
+    m_Start: 12.483333333333333
     m_ClipIn: 0
-    m_Asset: {fileID: -844144416583729893}
+    m_Asset: {fileID: -2432629390844464007}
     m_Duration: 1.1333333333333337
     m_TimeScale: 1
     m_ParentTrack: {fileID: -2311357566782030275}
@@ -548,7 +548,7 @@ MonoBehaviour:
     m_Start: 3
     m_ClipIn: 0
     m_Asset: {fileID: 7726691863026577938}
-    m_Duration: 5
+    m_Duration: 10.616666666666667
     m_TimeScale: 1
     m_ParentTrack: {fileID: -878502850298713526}
     m_EaseInDuration: 0
@@ -661,9 +661,9 @@ MonoBehaviour:
   m_Position: {x: 0, y: 0, z: 0}
   m_EulerAngles: {x: 0, y: 0, z: 0}
   m_UseTrackMatchFields: 1
-  m_MatchTargetFields: 63
+  m_MatchTargetFields: 15
   m_RemoveStartOffset: 0
-  m_ApplyFootIK: 1
+  m_ApplyFootIK: 0
   m_Loop: 0
   m_Version: 1
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
@@ -689,9 +689,9 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 5.433333333333334
+    m_Start: 12.483333333333333
     m_ClipIn: 0
-    m_Asset: {fileID: -2432629390844464007}
+    m_Asset: {fileID: -844144416583729893}
     m_Duration: 1.1333333333333337
     m_TimeScale: 1
     m_ParentTrack: {fileID: -350715108467028420}
@@ -813,9 +813,9 @@ MonoBehaviour:
   m_Position: {x: 0, y: 0, z: 0}
   m_EulerAngles: {x: 0, y: 0, z: 0}
   m_UseTrackMatchFields: 1
-  m_MatchTargetFields: 63
+  m_MatchTargetFields: 15
   m_RemoveStartOffset: 0
-  m_ApplyFootIK: 1
+  m_ApplyFootIK: 0
   m_Loop: 0
   m_Version: 1
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
@@ -844,7 +844,7 @@ MonoBehaviour:
     m_Start: 7.5
     m_ClipIn: 0
     m_Asset: {fileID: -3182132206149264896}
-    m_Duration: 5
+    m_Duration: 6.116666666666667
     m_TimeScale: 1
     m_ParentTrack: {fileID: 384037370243107713}
     m_EaseInDuration: 0
@@ -945,9 +945,9 @@ MonoBehaviour:
   m_Position: {x: 0, y: 0, z: 0}
   m_EulerAngles: {x: 0, y: 0, z: 0}
   m_UseTrackMatchFields: 1
-  m_MatchTargetFields: 63
+  m_MatchTargetFields: 15
   m_RemoveStartOffset: 0
-  m_ApplyFootIK: 1
+  m_ApplyFootIK: 0
   m_Loop: 0
   m_Version: 1
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
@@ -976,7 +976,7 @@ MonoBehaviour:
     m_Start: 6
     m_ClipIn: 0
     m_Asset: {fileID: 8611524049461770991}
-    m_Duration: 5
+    m_Duration: 7.616666666666667
     m_TimeScale: 1
     m_ParentTrack: {fileID: 712372471822662273}
     m_EaseInDuration: 0
@@ -1077,9 +1077,9 @@ MonoBehaviour:
   m_Position: {x: 0, y: 0, z: 0}
   m_EulerAngles: {x: 0, y: 0, z: 0}
   m_UseTrackMatchFields: 1
-  m_MatchTargetFields: 63
+  m_MatchTargetFields: 15
   m_RemoveStartOffset: 0
-  m_ApplyFootIK: 1
+  m_ApplyFootIK: 0
   m_Loop: 0
   m_Version: 1
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
@@ -1099,9 +1099,9 @@ MonoBehaviour:
   m_Position: {x: 0, y: 0, z: 0}
   m_EulerAngles: {x: 0, y: 0, z: 0}
   m_UseTrackMatchFields: 1
-  m_MatchTargetFields: 63
+  m_MatchTargetFields: 15
   m_RemoveStartOffset: 0
-  m_ApplyFootIK: 1
+  m_ApplyFootIK: 0
   m_Loop: 0
   m_Version: 1
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
@@ -1130,7 +1130,7 @@ MonoBehaviour:
     m_Start: 0.5
     m_ClipIn: 0
     m_Asset: {fileID: -460496095630622094}
-    m_Duration: 5
+    m_Duration: 13.116666666666667
     m_TimeScale: 1
     m_ParentTrack: {fileID: 1376756019168778228}
     m_EaseInDuration: 0
@@ -1240,7 +1240,7 @@ MonoBehaviour:
     m_Start: 1.5
     m_ClipIn: 0
     m_Asset: {fileID: 1012780749420461106}
-    m_Duration: 5
+    m_Duration: 12.116666666666667
     m_TimeScale: 1
     m_ParentTrack: {fileID: 3062932586187673710}
     m_EaseInDuration: 0
@@ -1350,7 +1350,7 @@ MonoBehaviour:
     m_Start: 2
     m_ClipIn: 0
     m_Asset: {fileID: 715645398613237479}
-    m_Duration: 5
+    m_Duration: 11.616666666666667
     m_TimeScale: 1
     m_ParentTrack: {fileID: 3247825631276819559}
     m_EaseInDuration: 0
@@ -1460,7 +1460,7 @@ MonoBehaviour:
     m_Start: 4.5
     m_ClipIn: 0
     m_Asset: {fileID: 564230199388382115}
-    m_Duration: 5
+    m_Duration: 9.116666666666667
     m_TimeScale: 1
     m_ParentTrack: {fileID: 3615178617995316723}
     m_EaseInDuration: 0
@@ -1561,9 +1561,9 @@ MonoBehaviour:
   m_Position: {x: 0, y: 0, z: 0}
   m_EulerAngles: {x: 0, y: 0, z: 0}
   m_UseTrackMatchFields: 1
-  m_MatchTargetFields: 63
+  m_MatchTargetFields: 15
   m_RemoveStartOffset: 0
-  m_ApplyFootIK: 1
+  m_ApplyFootIK: 0
   m_Loop: 0
   m_Version: 1
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
@@ -1592,7 +1592,7 @@ MonoBehaviour:
     m_Start: 3.5
     m_ClipIn: 0
     m_Asset: {fileID: 4923809105975169651}
-    m_Duration: 5
+    m_Duration: 10.116666666666667
     m_TimeScale: 1
     m_ParentTrack: {fileID: 5387929734013264937}
     m_EaseInDuration: 0
@@ -1702,7 +1702,7 @@ MonoBehaviour:
     m_Start: 7
     m_ClipIn: 0
     m_Asset: {fileID: 8608437393063441994}
-    m_Duration: 5
+    m_Duration: 6.616666666666667
     m_TimeScale: 1
     m_ParentTrack: {fileID: 6380402949488719995}
     m_EaseInDuration: 0
@@ -1812,7 +1812,7 @@ MonoBehaviour:
     m_Start: 5
     m_ClipIn: 0
     m_Asset: {fileID: -7134412161870646776}
-    m_Duration: 5
+    m_Duration: 8.616666666666667
     m_TimeScale: 1
     m_ParentTrack: {fileID: 6734506276136233547}
     m_EaseInDuration: 0
@@ -1913,9 +1913,9 @@ MonoBehaviour:
   m_Position: {x: 0, y: 0, z: 0}
   m_EulerAngles: {x: 0, y: 0, z: 0}
   m_UseTrackMatchFields: 1
-  m_MatchTargetFields: 63
+  m_MatchTargetFields: 15
   m_RemoveStartOffset: 0
-  m_ApplyFootIK: 1
+  m_ApplyFootIK: 0
   m_Loop: 0
   m_Version: 1
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
@@ -1935,9 +1935,9 @@ MonoBehaviour:
   m_Position: {x: 0, y: 0, z: 0}
   m_EulerAngles: {x: 0, y: 0, z: 0}
   m_UseTrackMatchFields: 1
-  m_MatchTargetFields: 63
+  m_MatchTargetFields: 15
   m_RemoveStartOffset: 0
-  m_ApplyFootIK: 1
+  m_ApplyFootIK: 0
   m_Loop: 0
   m_Version: 1
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
@@ -1966,7 +1966,7 @@ MonoBehaviour:
     m_Start: 2.5
     m_ClipIn: 0
     m_Asset: {fileID: -8018993098233520509}
-    m_Duration: 5
+    m_Duration: 11.116666666666667
     m_TimeScale: 1
     m_ParentTrack: {fileID: 8278401265984676182}
     m_EaseInDuration: 0
@@ -2076,7 +2076,7 @@ MonoBehaviour:
     m_Start: 6.5
     m_ClipIn: 0
     m_Asset: {fileID: -7328887385734091253}
-    m_Duration: 5
+    m_Duration: 7.116666666666667
     m_TimeScale: 1
     m_ParentTrack: {fileID: 8283415020168854355}
     m_EaseInDuration: 0
@@ -2177,9 +2177,9 @@ MonoBehaviour:
   m_Position: {x: 0, y: 0, z: 0}
   m_EulerAngles: {x: 0, y: 0, z: 0}
   m_UseTrackMatchFields: 1
-  m_MatchTargetFields: 63
+  m_MatchTargetFields: 15
   m_RemoveStartOffset: 0
-  m_ApplyFootIK: 1
+  m_ApplyFootIK: 0
   m_Loop: 0
   m_Version: 1
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
@@ -2199,9 +2199,9 @@ MonoBehaviour:
   m_Position: {x: 0, y: 0, z: 0}
   m_EulerAngles: {x: 0, y: 0, z: 0}
   m_UseTrackMatchFields: 1
-  m_MatchTargetFields: 63
+  m_MatchTargetFields: 15
   m_RemoveStartOffset: 0
-  m_ApplyFootIK: 1
+  m_ApplyFootIK: 0
   m_Loop: 0
   m_Version: 1
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
@@ -2221,9 +2221,9 @@ MonoBehaviour:
   m_Position: {x: 0, y: 0, z: 0}
   m_EulerAngles: {x: 0, y: 0, z: 0}
   m_UseTrackMatchFields: 1
-  m_MatchTargetFields: 63
+  m_MatchTargetFields: 15
   m_RemoveStartOffset: 0
-  m_ApplyFootIK: 1
+  m_ApplyFootIK: 0
   m_Loop: 0
   m_Version: 1
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
